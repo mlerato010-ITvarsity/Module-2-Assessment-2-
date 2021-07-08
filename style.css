@@ -1,0 +1,185 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:burlywood;
+}
+#header{
+    position:fixed;
+    top:0px;
+    left: 0px;
+    margin-bottom: 2px;
+    z-index: 500;
+    height:40px;
+    width: 100%;
+    color:darkgoldenrod;
+    background-color:whitesmoke;
+    text-align: center;
+    
+    
+}
+#gallery{
+    width:100%;
+    top: 0px;
+    left: 0px;
+    margin-top:40px;
+}
+
+#gallery img{
+    padding-top:40px ;
+     
+}
+
+h2{
+color:darkgoldenrod;
+padding-bottom: 15px;
+font-size: 20px;
+font-family:Arial, Helvetica, sans-serif;
+text-align:centre;
+} 
+
+h4{ 
+    padding-left: 5px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 2px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*========================== TOP-TABS ==========================*/
+
+#top-tabs{
+    position: fixed;
+    left:0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color:palevioletred;
+}
+#top-tabs a{
+    float       : left;
+    display     : 0;
+    width       : 33%;
+    height      : 20px;
+    font-weight :500 ;
+    color       :wheat;
+    text-align  : center;
+    text-decoration:none;
+    padding-top: 13px;
+}
+/*======================== BOTTOM-TABS ======================*/
+#tabs-bottom {
+position        : fixed;
+bottom          : 0;
+left            : 0;
+z-index         : 500;
+width           : 100%;
+height          : 40px;
+background-color: palevioletred;
+}
+#tabs-bottom a{
+float           : left;
+display         : block;
+width           : 33%;
+height          : 30px;
+font-weight     : 500;
+color           :wheat;
+text-align      : center;
+text-decoration : none;
+padding-top     : 12px;
+}
+/*============== MAIN============*/
+#main{
+    margin: 1px;
+  
+    
+}
+#content{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+/*============== INFO BOX ============*/
+a.info-box{
+    text-decoration: none;
+    background:lightgrey;
+    width: 90%;
+    height: 1O0px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info-box img{
+    height:60px;
+    margin: 8px;
+    float: left;
+}
+
+.info-box p{
+    margin: 2px; 
+    padding: 0;
+    width:90%;
+    color:#131313;
+
+}
+.info-box img.right{
+    float:right;
+    margin-top: 25px;
+    height:40px;
+}
+    /*========================  FORM   ====================*/ 
+ 
+ form{
+    padding-bottom: 30px;
+  }
+
+ input{
+     width:70%;
+     height:25px;
+     margin:12px 0;
+     border:1px solid purple;
+ }
+ textarea{
+     width: 70%;
+     height: 65px;
+     margin: 12px 0;
+     border:1px solid brown;
+ }
+ .button{
+     display: block;
+     width: 70%;
+     background-color: violet;
+     text-decoration: none;
+     text-align: center;
+     color: black;
+     font-size: 18px;
+     font-weight: 400;
+     margin: 12px 0;
+     padding: 8px 0;
+
+}
+/*===================== TABLE ======================*/
+th{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: monospace;
+    text-align: center;
+    background-color: blueviolet;
+}
+td{
+    color:black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    font-family: Helvetica, fantasy;
+    border-collapse: collapse;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
